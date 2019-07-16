@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88FFAC114560DD004D0006DB /* Pods_SoulTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A3614819A40F7CB2B18FBC /* Pods_SoulTalk.framework */; };
+		D4277D5022DD5E4600C2A3A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D4F22DD5E4600C2A3A6 /* AppDelegate.swift */; };
+		D4277D5222DD5E4600C2A3A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D5122DD5E4600C2A3A6 /* ViewController.swift */; };
+		D4277D5522DD5E4600C2A3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4277D5322DD5E4600C2A3A6 /* Main.storyboard */; };
+		D4277D5722DD5E4800C2A3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4277D5622DD5E4800C2A3A6 /* Assets.xcassets */; };
+		D4277D5A22DD5E4800C2A3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4277D5822DD5E4800C2A3A6 /* LaunchScreen.storyboard */; };
+		D4277D6422DD5F0A00C2A3A6 /* PublicFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D6322DD5F0A00C2A3A6 /* PublicFramework.swift */; };
+		D4277D6A22DD647600C2A3A6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D6922DD647600C2A3A6 /* Test.swift */; };
+		D4277D6E22DD710900C2A3A6 /* CommonLan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D6D22DD710900C2A3A6 /* CommonLan.swift */; };
+		D4277D7122DD7B2F00C2A3A6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D7022DD7B2F00C2A3A6 /* Helper.swift */; };
+		D4277D7522DD7D4900C2A3A6 /* CreateAndDebugOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D7422DD7D4900C2A3A6 /* CreateAndDebugOperator.swift */; };
+		D4277D7822DD813500C2A3A6 /* subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D7722DD813500C2A3A6 /* subject.swift */; };
+		D4277D7B22DDA82A00C2A3A6 /* IgnoreOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4277D7A22DDA82A00C2A3A6 /* IgnoreOperator.swift */; };
+		D42C836622DDBA2900EAC3DD /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C836522DDBA2900EAC3DD /* Transform.swift */; };
+		D42C836822DDC22800EAC3DD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C836722DDC22800EAC3DD /* Player.swift */; };
+		D42C836B22DDCBC700EAC3DD /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C836A22DDCBC700EAC3DD /* Combine.swift */; };
+		D42C836E22DDD8CE00EAC3DD /* TimeDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C836D22DDD8CE00EAC3DD /* TimeDelay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21035E7CF45BBC843F5C14F9 /* Pods-SoulTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulTalk.debug.xcconfig"; path = "Target Support Files/Pods-SoulTalk/Pods-SoulTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		3AC153D0B3301B06B29CC02D /* Pods-SoulTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulTalk.release.xcconfig"; path = "Target Support Files/Pods-SoulTalk/Pods-SoulTalk.release.xcconfig"; sourceTree = "<group>"; };
+		B6A3614819A40F7CB2B18FBC /* Pods_SoulTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoulTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4277D4C22DD5E4600C2A3A6 /* SoulTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4277D4F22DD5E4600C2A3A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4277D5122DD5E4600C2A3A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4277D5422DD5E4600C2A3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4277D5622DD5E4800C2A3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4277D5922DD5E4800C2A3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4277D5B22DD5E4800C2A3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4277D6322DD5F0A00C2A3A6 /* PublicFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicFramework.swift; sourceTree = "<group>"; };
+		D4277D6922DD647600C2A3A6 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D4277D6D22DD710900C2A3A6 /* CommonLan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonLan.swift; sourceTree = "<group>"; };
+		D4277D7022DD7B2F00C2A3A6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D4277D7422DD7D4900C2A3A6 /* CreateAndDebugOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAndDebugOperator.swift; sourceTree = "<group>"; };
+		D4277D7722DD813500C2A3A6 /* subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subject.swift; sourceTree = "<group>"; };
+		D4277D7A22DDA82A00C2A3A6 /* IgnoreOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOperator.swift; sourceTree = "<group>"; };
+		D42C836522DDBA2900EAC3DD /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		D42C836722DDC22800EAC3DD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D42C836A22DDCBC700EAC3DD /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		D42C836D22DDD8CE00EAC3DD /* TimeDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDelay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4277D4922DD5E4600C2A3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FFAC114560DD004D0006DB /* Pods_SoulTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5A64CA8E3E2D33D94F9CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21035E7CF45BBC843F5C14F9 /* Pods-SoulTalk.debug.xcconfig */,
+				3AC153D0B3301B06B29CC02D /* Pods-SoulTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4739E88F28CE1180FD4290DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3614819A40F7CB2B18FBC /* Pods_SoulTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4277D4322DD5E4600C2A3A6 = {
+			isa = PBXGroup;
+			children = (
+				D4277D4E22DD5E4600C2A3A6 /* SoulTalk */,
+				D4277D4D22DD5E4600C2A3A6 /* Products */,
+				2C5A64CA8E3E2D33D94F9CCB /* Pods */,
+				4739E88F28CE1180FD4290DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4277D4D22DD5E4600C2A3A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D4C22DD5E4600C2A3A6 /* SoulTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4277D4E22DD5E4600C2A3A6 /* SoulTalk */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D6722DD641100C2A3A6 /* Test */,
+				D4277D6222DD5EFB00C2A3A6 /* Configuration */,
+				D4277D6122DD5EED00C2A3A6 /* SupportFiles */,
+			);
+			path = SoulTalk;
+			sourceTree = "<group>";
+		};
+		D4277D6122DD5EED00C2A3A6 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D4F22DD5E4600C2A3A6 /* AppDelegate.swift */,
+				D4277D5122DD5E4600C2A3A6 /* ViewController.swift */,
+				D4277D5322DD5E4600C2A3A6 /* Main.storyboard */,
+				D4277D5622DD5E4800C2A3A6 /* Assets.xcassets */,
+				D4277D5822DD5E4800C2A3A6 /* LaunchScreen.storyboard */,
+				D4277D5B22DD5E4800C2A3A6 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D4277D6222DD5EFB00C2A3A6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D6F22DD7B2000C2A3A6 /* Helper */,
+				D4277D6322DD5F0A00C2A3A6 /* PublicFramework.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D4277D6722DD641100C2A3A6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D42C836C22DDD8AF00EAC3DD /* 时间 */,
+				D42C836922DDCBBA00EAC3DD /* 合并 */,
+				D42C836422DDBA1600EAC3DD /* Transform */,
+				D4277D7922DDA80900C2A3A6 /* 常用的事件忽略操作符 */,
+				D4277D7622DD812000C2A3A6 /* 四种subject */,
+				D4277D7222DD7D1300C2A3A6 /* create 和 debug operator */,
+				D4277D6C22DD709800C2A3A6 /* 术语 */,
+				D4277D6822DD641500C2A3A6 /* 异步队列是以时间为索引的常量队列 */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		D4277D6822DD641500C2A3A6 /* 异步队列是以时间为索引的常量队列 */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D6922DD647600C2A3A6 /* Test.swift */,
+			);
+			path = "异步队列是以时间为索引的常量队列";
+			sourceTree = "<group>";
+		};
+		D4277D6C22DD709800C2A3A6 /* 术语 */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D6D22DD710900C2A3A6 /* CommonLan.swift */,
+			);
+			path = "术语";
+			sourceTree = "<group>";
+		};
+		D4277D6F22DD7B2000C2A3A6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D7022DD7B2F00C2A3A6 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D4277D7222DD7D1300C2A3A6 /* create 和 debug operator */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D7422DD7D4900C2A3A6 /* CreateAndDebugOperator.swift */,
+			);
+			path = "create 和 debug operator";
+			sourceTree = "<group>";
+		};
+		D4277D7622DD812000C2A3A6 /* 四种subject */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D7722DD813500C2A3A6 /* subject.swift */,
+			);
+			path = "四种subject";
+			sourceTree = "<group>";
+		};
+		D4277D7922DDA80900C2A3A6 /* 常用的事件忽略操作符 */ = {
+			isa = PBXGroup;
+			children = (
+				D4277D7A22DDA82A00C2A3A6 /* IgnoreOperator.swift */,
+			);
+			path = "常用的事件忽略操作符";
+			sourceTree = "<group>";
+		};
+		D42C836422DDBA1600EAC3DD /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				D42C836522DDBA2900EAC3DD /* Transform.swift */,
+				D42C836722DDC22800EAC3DD /* Player.swift */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		D42C836922DDCBBA00EAC3DD /* 合并 */ = {
+			isa = PBXGroup;
+			children = (
+				D42C836A22DDCBC700EAC3DD /* Combine.swift */,
+			);
+			path = "合并";
+			sourceTree = "<group>";
+		};
+		D42C836C22DDD8AF00EAC3DD /* 时间 */ = {
+			isa = PBXGroup;
+			children = (
+				D42C836D22DDD8CE00EAC3DD /* TimeDelay.swift */,
+			);
+			path = "时间";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4277D4B22DD5E4600C2A3A6 /* SoulTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4277D5E22DD5E4800C2A3A6 /* Build configuration list for PBXNativeTarget "SoulTalk" */;
+			buildPhases = (
+				87FCF2AB2340B90BAAA7FF7A /* [CP] Check Pods Manifest.lock */,
+				D4277D4822DD5E4600C2A3A6 /* Sources */,
+				D4277D4922DD5E4600C2A3A6 /* Frameworks */,
+				D4277D4A22DD5E4600C2A3A6 /* Resources */,
+				E3FDD24C1BA3EBE4FAA848CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoulTalk;
+			productName = SoulTalk;
+			productReference = D4277D4C22DD5E4600C2A3A6 /* SoulTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4277D4422DD5E4600C2A3A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Chen;
+				TargetAttributes = {
+					D4277D4B22DD5E4600C2A3A6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D4277D4722DD5E4600C2A3A6 /* Build configuration list for PBXProject "SoulTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4277D4322DD5E4600C2A3A6;
+			productRefGroup = D4277D4D22DD5E4600C2A3A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4277D4B22DD5E4600C2A3A6 /* SoulTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4277D4A22DD5E4600C2A3A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4277D5A22DD5E4800C2A3A6 /* LaunchScreen.storyboard in Resources */,
+				D4277D5722DD5E4800C2A3A6 /* Assets.xcassets in Resources */,
+				D4277D5522DD5E4600C2A3A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87FCF2AB2340B90BAAA7FF7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoulTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FDD24C1BA3EBE4FAA848CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoulTalk/Pods-SoulTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoulTalk/Pods-SoulTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoulTalk/Pods-SoulTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4277D4822DD5E4600C2A3A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C836E22DDD8CE00EAC3DD /* TimeDelay.swift in Sources */,
+				D42C836822DDC22800EAC3DD /* Player.swift in Sources */,
+				D4277D7822DD813500C2A3A6 /* subject.swift in Sources */,
+				D4277D6E22DD710900C2A3A6 /* CommonLan.swift in Sources */,
+				D42C836622DDBA2900EAC3DD /* Transform.swift in Sources */,
+				D4277D5222DD5E4600C2A3A6 /* ViewController.swift in Sources */,
+				D4277D7522DD7D4900C2A3A6 /* CreateAndDebugOperator.swift in Sources */,
+				D4277D7B22DDA82A00C2A3A6 /* IgnoreOperator.swift in Sources */,
+				D4277D6A22DD647600C2A3A6 /* Test.swift in Sources */,
+				D4277D6422DD5F0A00C2A3A6 /* PublicFramework.swift in Sources */,
+				D42C836B22DDCBC700EAC3DD /* Combine.swift in Sources */,
+				D4277D5022DD5E4600C2A3A6 /* AppDelegate.swift in Sources */,
+				D4277D7122DD7B2F00C2A3A6 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4277D5322DD5E4600C2A3A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4277D5422DD5E4600C2A3A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4277D5822DD5E4800C2A3A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4277D5922DD5E4800C2A3A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4277D5C22DD5E4800C2A3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4277D5D22DD5E4800C2A3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4277D5F22DD5E4800C2A3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21035E7CF45BBC843F5C14F9 /* Pods-SoulTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZA8WH64YM;
+				INFOPLIST_FILE = "$(SRCROOT)/SoulTalk/SupportFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roger.SoulTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4277D6022DD5E4800C2A3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC153D0B3301B06B29CC02D /* Pods-SoulTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZA8WH64YM;
+				INFOPLIST_FILE = "$(SRCROOT)/SoulTalk/SupportFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roger.SoulTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4277D4722DD5E4600C2A3A6 /* Build configuration list for PBXProject "SoulTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4277D5C22DD5E4800C2A3A6 /* Debug */,
+				D4277D5D22DD5E4800C2A3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4277D5E22DD5E4800C2A3A6 /* Build configuration list for PBXNativeTarget "SoulTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4277D5F22DD5E4800C2A3A6 /* Debug */,
+				D4277D6022DD5E4800C2A3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4277D4422DD5E4600C2A3A6 /* Project object */;
+}
